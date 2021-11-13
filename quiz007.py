@@ -1,4 +1,4 @@
-x=3
+x=0
 if not x ==0:
     print("not zero")
 else:
