@@ -1,8 +1,8 @@
-x=0
-if x==0:
+def keisann(x,y):
+ return x+y,x-y,x*y,x/y,x%y
 
 
-    print("zero")
+print(keisann(12, 3))
 
 
 

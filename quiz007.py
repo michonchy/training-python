@@ -1,6 +1,8 @@
-x=3
-if not x ==0:
-    print("not zero")
-else:
+x=0
+if x==0:
+
+
     print("zero")
+
+
 
