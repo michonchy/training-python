@@ -6,4 +6,4 @@ def kakezan(x):
 
 
 
-print(kakezan(987))
+print(kakezan(12))
