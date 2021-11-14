@@ -1,9 +1,9 @@
 
 def number(x):
-    return x
+    return int(x)
 
 
 
 
-
-print(number(12345))
+n=input("What is your number >>\n")
+print(number(n))
