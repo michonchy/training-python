@@ -1,9 +1,9 @@
 
 def kakezan(x):
-    return 3*x
+    return 3*int(x)
 
 
 
 
-
-print(kakezan(12))
+n=input("What is your number >>\n")
+print(kakezan(n))
