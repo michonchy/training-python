@@ -1,5 +1,8 @@
-x=0
-if not x ==0:
-    print("not zero")
-else:
-    print("zero")
+def keisann(x):
+    x=int(x)
+    if x==0:
+        return "zero"
+    else:
+        return "not zero"
+n=input("What is your number >>\n")
+print(keisann(n))
