@@ -1,9 +1,6 @@
 
-def mod(x,y):
-    return x%y
+def mod(x, y):
+    return x % y
 
 
-
-
-
-print(mod(12345,7))
+print(mod(12345, 7))

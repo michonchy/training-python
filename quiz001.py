@@ -1,9 +1,6 @@
 
-def add_number(x,y):
+def add_number(x, y):
     return x+y
 
 
-
-
-
-print(add_number(12345,23456))
+print(add_number(12345, 23456))
