@@ -1,11 +1,15 @@
+class InvalidError(Exception):
+    pass
 def is_number(x):
-    if not x.isnumeric() and not x.startswith("-"):
+    if x.startswith("-"):
+        x = x[1:]
+    if not x.isdigit():
         return False
     return True
 
 def number(x):
-    if is_number (x):
-        return "整数値を入力してください。"
+    if not is_number (x):
+        raise InvalidError("整数値を入力してください。") 
     return int(x)
 
 if __name__ == '__main__':

@@ -1,4 +1,4 @@
-import quiz0010
+import quiz010
 
 def test_number():
     assert quiz010.number("1") == 1
