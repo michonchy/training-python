@@ -7,6 +7,6 @@ def number(x):
     else:
         return "zero"
 
-
-n = input("What is your number >>\n")
-print(number(n))
+if __name__ == "__main__":
+    n = input("What is your number >>\n")
+    print(number(n))
