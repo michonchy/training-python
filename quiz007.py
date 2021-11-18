@@ -5,6 +5,6 @@ def keisann(x):
     else:
         return "not zero"
 
-
-n = input("What is your number >>\n")
-print(keisann(n))
+if __name__ == "__main__":
+    n = input("What is your number >>\n")
+    print(keisann(n))
