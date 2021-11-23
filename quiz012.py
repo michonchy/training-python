@@ -10,8 +10,9 @@ def number(x):
     return int(x)
 
 hello_world_set = ""
-a = input("How many times do yo indicate?>>\n") 
-n = number(a)      
-for index in range(n):
-    hello_world_set +="Hello World!\n"
-print(hello_world_set)
+if __name__ == '__main__':
+    a = input("How many times do yo indicate?>>\n") 
+    n = number(a)      
+    for index in range(n):
+        hello_world_set +="Hello World!\n"
+    print(hello_world_set)
