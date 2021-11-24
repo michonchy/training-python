@@ -9,8 +9,8 @@ def number(x):
         raise InvalidError("整数値を入力してください。")
     return int(x)
 
-hello_world_set = ""
 if __name__ == '__main__':
+    hello_world_set = ""
     a = input("How many times do yo indicate?>>\n") 
     n = number(a)      
     for index in range(n):
