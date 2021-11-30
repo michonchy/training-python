@@ -11,7 +11,7 @@ def test_number_with_few():
         assert str(e) == "整数値を入力してください。"
 
 def test_get_hello_world_test():
-    assert quiz012.get_hello_world_set(2) == '''0
+    assert quiz013.get_hello_world_set(2) == '''0
 1
 2
 '''
