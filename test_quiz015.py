@@ -1,7 +1,7 @@
 import quiz015
 
 def test_number():
-    assert quiz015.is_number("2") == True
+    assert quiz015.is_number("2") 
 
 def test_number_with_few():
     try:
