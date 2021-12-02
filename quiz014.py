@@ -9,9 +9,12 @@ def number(x):
         raise InvalidError("整数値を入力してください。")
     return int(x)
 
+def number_count(n):
+    result = ""
+    for i in range(n,-1,-1):
+        result += str(i) + "\n" 
+    return result
 if __name__ == '__main__':
     a = input("How many times do yo indicate?>>\n")
     n = number(a)
-    for number in range(n,-1,-1):
-        print(number)
-
+    print(number_count(n))
