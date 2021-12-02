@@ -10,8 +10,8 @@ def test_number_with_few():
     except Exception as e:
         assert str(e) == "整数値を入力してください。"
 
-def test_get_hello_world_test():
-    assert quiz013.get_hello_world_set(2) == '''0
+def test_number_count():
+    assert quiz013.number_count(2) == '''0
 1
 2
 '''

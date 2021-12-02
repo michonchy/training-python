@@ -10,9 +10,10 @@ def number(x):
     return int(x)
 
 def number_count(n):
+    result = ""
     for i in range(0,n+1):
-        return(list(range(0,n+1)))
-    # listにしたら改行されん。。かなしい 
+        result += str(i) + "\n" 
+    return result
 if __name__ == '__main__':
     a = input("How many times do yo indicate?>>\n")
     n = number(a)
