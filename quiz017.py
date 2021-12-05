@@ -6,7 +6,7 @@ def is_number(x):
     return True
 def number(x):
     if not is_number(x):
-        raise InvalidError("正の整数値を入力してください。")
+        raise InvalidError("整数値を入力してください。")
     return int(x)
 
 def number_array(n):
