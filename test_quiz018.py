@@ -9,5 +9,10 @@ def test_number_with_few():
     except Exception as e:
         assert str(e) == "整数値を入力してください。"
 
-
+def test_number_array():
+    assert quiz018.number_array(4,1) == '''1
+1
+1
+1
+'''
 
