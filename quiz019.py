@@ -1,8 +1,6 @@
 class InvalidError(Exception):
     pass
 def is_number(x):
-    if x.startswith("-"):
-        x = x[1:]
     if not x.isdigit():
         return False
     return True
@@ -11,14 +9,14 @@ def number(x):
         raise InvalidError("正の整数値を入力してください。")
     return int(x)
 
+
 def number_array(n):
     result = ""
     for index in range(n):
-        result += str(a)+"\n"
-    return result 
+        a = input("How many times do yo indicate?>>\n")
+        num = number(a)
+        print(str(num))
+        result += "numの今の値は" + str(num)+"\n"
+    return result
+print(number_array(5))
 
-if __name__ == '__main__':
-    a = input("How many times do yo indicate?>>\n")
-    n = number(a)
-    print(str(n))
-print(number_array(10))

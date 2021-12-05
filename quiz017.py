@@ -16,6 +16,4 @@ def number_array(n):
     return result 
 
 if __name__ == '__main__':
-    a = input("How many times do yo indicate?>>\n")
-    n = number(a)
-    print(number_array(n))
+    print(number_array(10))
