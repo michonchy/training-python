@@ -6,17 +6,17 @@ def is_number(x):
     return True
 def number(x):
     if not is_number(x):
-        raise InvalidError("正の整数値を入力してください。")
+        raise InvalidError("整数値を入力してください。")
     return int(x)
 
-
-def number_array(n):
-    result = ""
-    for index in range(n):
-        a = input("How many times do yo indicate?>>\n")
-        num = number(a)
-        print(str(num))
-        result += "numの今の値は" + str(num)+"\n"
-    return result
-print(number_array(5))
+if __name__ == '__main__':
+    def number_array(n):
+        result = ""
+        for index in range(n):
+            a = input("How many times do yo indicate?>>\n")
+            num = number(a)
+            print(str(num))
+            result += "numの今の値は" + str(num)+"\n"
+        return result
+    print(number_array(5))
 
