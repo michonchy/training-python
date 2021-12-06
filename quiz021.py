@@ -1,12 +1,14 @@
 class InvalidError(Exception):
     pass
 def is_number(x):
+    if x.startswith("-"):
+        x = x[1:]
     if not x.isdigit():
         return False
     return True
 def number(x):
     if not is_number(x):
-        raise InvalidError("正の整数値を入力してください。")
+        raise InvalidError("整数値を入力してください。")
     return int(x)
 
 def keisann(x):
