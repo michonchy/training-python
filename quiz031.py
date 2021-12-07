@@ -19,7 +19,7 @@ def graph(n):
         return ""
     ind_number = ""
     for i in range(n):
-        if i % 5 == 0:
+        if i % 5 == 0 and i != 0 :
             ind_number += " "
         ind_number += "*"
     return ind_number

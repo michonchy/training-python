@@ -10,8 +10,8 @@ def test_number_with_few():
         assert str(e) == "整数値を入力してください。"
 
 def test_graph():
-    assert quiz031.graph(3) == " ***"
-    assert quiz031.graph(12) == " ***** ***** **"
+    assert quiz031.graph(3) == "***"
+    assert quiz031.graph(12) == "***** ***** **"
 
 
 
