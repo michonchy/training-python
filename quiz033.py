@@ -15,9 +15,9 @@ def number(x):
 
 def get_rid(n):    
     num = ""
-    for i in range(1,n+1):
-        if i % 5 == 0:
-            num += "bar"
+    for i in range(1,10):
+        if i  == n:
+            num += ""
         else:
             num += str(i)
     return num
